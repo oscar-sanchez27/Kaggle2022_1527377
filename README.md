@@ -41,4 +41,4 @@ Crec que seria interesant indagar més en els diferents atributs com el temps y 
 
 
 ## Llicencia
-El projecte s’ha desenvolupat sota llicència ZZZz.
+El projecte s’ha desenvolupat sota llicència UAB.
