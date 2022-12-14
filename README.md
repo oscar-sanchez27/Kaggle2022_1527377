@@ -1,5 +1,6 @@
 # Pràctica Kaggle APC UAB 2022-23 
-### Nom: Óscar Sánchez Lima 1527377
+### Nom: Óscar Sánchez Lima 
+### Niu: 1527377
 ### DATASET: Credit Card Fraud Detection
 ### URL: [kaggle](https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud)
 ## Resum
@@ -26,7 +27,7 @@ A continuació mostraré els resultats de els diferents models.
 
 | Model | Preprocessing | Accuracy | Precision | Recall | F1-Score |
 | -- | -- | -- | -- | -- | -- |
-| Regresor Logístic | Estandarització | 96% | 99% | 93% | 96% |
+| LogisticRegression | Estandarització | 96% | 99% | 93% | 96% |
 | KNearest| Estandarització | 95% | 98% | 93% | 95% |
 | Support Vector Classifier | Estandarització | 94% | 100% | 88% | 94% |
 | DecisionTreeClassifier| Estandarització | 89% | 86% | 93% | 89% |
@@ -35,10 +36,11 @@ A continuació mostraré els resultats de els diferents models.
 Per tal de fer una prova, es pot fer servir amb la següent comanda ``` python3 demo/demo.py --input here ```
 
 ## Conclusions
-El millor model que s'ha aconseguit ha estat...
-En comparació amb l'estat de l'art i els altres treballs que hem analitzat....
+El millor model que s'ha aconseguit ha estat el LogisticRegression que ha aconseguit un 96% d'accuracy. Encara que el Support Vector Classifier arriba a una precisió perfecta. 
+
 ## Idees per treballar en un futur
-Crec que seria interesant indagar més en...
+Crec que seria interesant indagar més en els diferents atributs com el temps y el import, per saber si tener una relevancia molt mayor alhora de sapiguer si la transacció es fraudulenta o no. També per treballar en un futur seria interresant provar uns altres models, per saber si donen millors resultats. 
+
 
 ## Llicencia
 El projecte s’ha desenvolupat sota llicència ZZZz.
