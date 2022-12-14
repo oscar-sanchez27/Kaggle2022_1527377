@@ -30,16 +30,6 @@ A continuació mostraré els resultats de els diferents models.
 | Support Vector Classifier | Estandarització | 94% | 100% | 88% | 94% |
 | DecisionTreeClassifier| Estandarització | 89% | 86% | 93% | 89% |
 
-| Model | Preprocessing | Hiperparametres | Mètrica | Temps |
-| -- | -- | -- | -- | -- |
-| Regresor Logístic | Estandarització | penalty: l2, solver: newton-cg, warm_start: True | 98.30 % | 1.87 s |
-| Gradient Descent | Estandarització | 'alpha': 0.001, 'class_weight': 'balanced', 'fit_intercept': True, 'learning_rate': 'optimal', 'loss': 'log', 'max_iter': 5000, 'penalty': 'l2', 'shuffle': True, 'warm_start': 'True' | 98.24 % | 4.78 s |
-| SVC | Estandarització | 'class_weight': 'balanced', 'gamma': 'scale', 'kernel': 'linear' | 98.30 % | 1.37 s |
-| Random Forest | default | 'balanced_subsample', 'criterion': 'gini', 'max_features': 'auto', 'n_estimators': 75, 'warm_start': True | 98.91 % | 101.31 s |
-| Naive Bayes | Feature Selection | default | 97.25 % | 0.01 s |
-
-Aquells valors marcats com a 'default' signifiquen que no s'ha realitzat cap tipus de modificació. Per exemple, 'default' en preprocessing indica que no s'han tractat les dades i en hipermaràmetres inica que s'ha utilitzat la configuració per defecte del model.
-
 ## Demo
 Per tal de fer una prova, es pot fer servir amb la següent comanda ``` python3 demo/demo.py --input here ```
 
