@@ -13,7 +13,7 @@ Volem aprender quin és el millor model que prediu si una transacció es fraudul
 
 ## Experiments
 Durant aquesta pràctica he realitzat diferents execucions amb múltiples models, tals com:
-* Regrsssor Logístic
+* Regressor Logístic
 * KNearest
 * Suported Vector Classfication
 * DecisionTreeClassifier
