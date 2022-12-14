@@ -8,7 +8,7 @@ El dataset utilitza dades de transaccions realitzades amb targetes de crédit en
 Tenim 284807 dades amb 31 atributs. Dels 31 atributs, l'atribut Class és categoric i es el que anomoenarem atribut objectiu. Els altres atributs són numerics.
 El nostre atribut objectiu pot tenir dos valors que son 1 o 0. Si el valor es 1 vol dir que aquella transacció es fraudulenta i si el valor es 0 vol dir que la transacció es correcta. L'atribut Amount, indica l'import de la transacció. L'atribut Time es inidica el temps entre una transsació i la primera transsació. Per últim, els atributs de V1 a V28 son funcions numériques que son el resultat de la transformació PCA. 
 
-### Objectius del dataset Volem aprender quina és la ...
+### Objectius del dataset 
 Volem aprender quin és el millor model que prediu si una transacció es fraudulenta o no.
 
 ## Experiments
