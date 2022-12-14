@@ -32,8 +32,6 @@ A continuació mostraré els resultats de els diferents models.
 | Support Vector Classifier | Estandarització | 94% | 100% | 88% | 94% |
 | DecisionTreeClassifier| Estandarització | 89% | 86% | 93% | 89% |
 
-## Demo
-Per tal de fer una prova, es pot fer servir amb la següent comanda ``` python3 demo/demo.py --input here ```
 
 ## Conclusions
 El millor model que s'ha aconseguit ha estat el LogisticRegression que ha aconseguit un 96% d'accuracy. Encara que el Support Vector Classifier arriba a una precisió perfecta. 
