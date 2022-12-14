@@ -1,4 +1,5 @@
-# Pràctica Kaggle APC UAB 2022-23 ### Nom: Óscar Sánchez Lima 1527377
+# Pràctica Kaggle APC UAB 2022-23 
+### Nom: Óscar Sánchez Lima 1527377
 ### DATASET: Credit Card Fraud Detection
 ### URL: [kaggle](https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud)
 ## Resum
