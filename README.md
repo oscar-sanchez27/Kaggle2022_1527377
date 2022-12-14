@@ -24,7 +24,7 @@ A més el dataset no conté valors Nulls per tant no he tingut que tractar aixó
 A continuació mostraré els resultats de els diferents models. 
 
 | Model | Preprocessing | Accuracy | Precision | Recall | F1-Score |
-| -- | -- | -- | -- | -- |
+| -- | -- | -- | -- | -- | -- |
 | Regresor Logístic | Estandarització | 96% | 99% | 93% | 96% |
 | KNearest| Estandarització | 95% | 98% | 93% | 95% |
 | Support Vector Classifier | Estandarització | 94% | 100% | 88% | 94% |
